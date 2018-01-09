@@ -3,6 +3,16 @@ persist.sys.sf.disable_blurs=1
 ro.surface_flinger.supports_background_blur=1
 ro.sf.blurs_are_expensive=1
 
+# LMKD
+ro.lmk.low=1001
+ro.lmk.medium=0
+ro.lmk.critical=0
+ro.lmk.critical_upgrade=false
+ro.lmk.upgrade_pressure=100
+ro.lmk.downgrade_pressure=100
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+
 # Sounds
 ro.config.ringtone=The_big_adventure.ogg
 ro.config.notification_sound=Popcorn.ogg
