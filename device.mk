@@ -217,6 +217,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/idc/,$(TARGET_COPY_OUT_VENDOR)/usr/idc)
 
+# Iorap
+PRODUCT_PACKAGES += \
+    iorap-app-startup-runner
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
