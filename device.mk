@@ -312,6 +312,10 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 PRODUCT_PACKAGES += \
     KarnaPowerProfile \
     NotchBarKiller
+    
+# PartsBin
+PRODUCT_PACKAGES += \
+    PartsBin
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
