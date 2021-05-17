@@ -16,6 +16,10 @@ $(call inherit-product, vendor/xiaomi/surya/surya-vendor.mk)
 # Audio
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+    
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := sm6150
 
 # Device Settings
 PRODUCT_PACKAGES += \
@@ -86,7 +90,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-ssos
 
 PRODUCT_PACKAGES += \
     KarnaFrameworks \
