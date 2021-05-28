@@ -19,3 +19,4 @@ ro.config.alarm_alert=Bright_morning.ogg
 
 # IORAP
 ro.iorapd.enable=true
+iorapd.perfetto.enable=true
