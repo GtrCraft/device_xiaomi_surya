@@ -19,6 +19,10 @@ vendor.display.disable_idle_time_hdr=1
 vendor.display.disable_idle_time_video=1
 vendor.display.idle_time=1100
 
+# DRM
+drm.service.enabled=true
+media.mediadrmservice.enable=true
+
 # HVDCP
 persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.taper_term_mv=6500
