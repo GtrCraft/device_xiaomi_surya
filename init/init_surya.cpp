@@ -84,8 +84,8 @@ void set_device_fp() {
     string source_partitions[] = { "", "bootimage", "odm.", "product.",
                                    "system", "system_ext.", "vendor." };
 
-    string fp = "google/sunfish/sunfish:11/RQ2A.210505.002/7246365:user/release-keys";
-    string desc = "sunfish-user 11 RQ2A.210505.002 7246365 release-keys";
+    string fp = "google/sunfish/sunfish:11/RQ3A.210605.005/7349499:user/release-keys";
+    string desc = "sunfish-user 11 RQ3A.210605.005 7349499 release-keys";
 
     for (const string &source : source_partitions) {
         set_ro_build_prop(source, "fingerprint", fp, false);
