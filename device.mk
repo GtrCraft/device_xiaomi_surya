@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := sm6150
 
+# Device properties
+include $(LOCAL_PATH)/device_prop.mk
+
 # Device Settings
 PRODUCT_PACKAGES += \
     XiaomiParts
