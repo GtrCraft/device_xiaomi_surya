@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Evolution X stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_CARRIER_SETTINGS := true
+DEVICE_REQUIRES_CARRIER_APPS := true
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 PRODUCT_NAME := evolution_surya
