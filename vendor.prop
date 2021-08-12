@@ -155,6 +155,7 @@ vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
 vendor.display.qdcm.mode_combine=1
 vendor.display.update_vsync_on_doze=1
+vendor.display.video_mode_panel=1
 
 # Display - Dynamic refresh rate
 ro.surface_flinger.set_display_power_timer_ms=1000
