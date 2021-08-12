@@ -37,5 +37,5 @@
     <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
     
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
-    <integer name="config_screenRecorderMaxFramerate">90</integer>
+    <integer name="config_screenRecorderMaxFramerate">60</integer>
 </resources>
