@@ -1,0 +1,12 @@
+[
+  {
+    "repository":  "GZR-Kernels/Optimus_Drunk_Surya",
+    "target_path": "kernel/xiaomi/surya",
+    "branch":      "11.0"
+  },
+  {
+    "repository":  "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch":      "lineage-18.1"
+  }
+]
