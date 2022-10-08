@@ -94,10 +94,10 @@ void vendor_load_properties() {
 
     if (hwname == "karna") {
         model = "M2007J20CI";
-        name = "karna_in";
+        name = "karna_global";
         device = "karna";
-        fingerprint = "POCO/karna_in/karna:12/RKQ1.211019.001/V13.0.1.0.SJGINXM:user/release-keys";
-        description = "karna_in-user 12 RKQ1.211019.001 V13.0.1.0.SJGINXM release-keys";
+        fingerprint = "POCO/karna_global/karna:12/RKQ1.211019.001/V13.0.1.0.SJGMIXM:user/release-keys";
+        description = "karna_global-user 12 RKQ1.211019.001 V13.0.1.0.SJGMIXM release-keys";
         marketname = "POCO X3";
     } else {
         name = "surya_global";
