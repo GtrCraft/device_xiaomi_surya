@@ -90,12 +90,12 @@ void vendor_load_properties() {
         device = "karna";
         model = "M2007J20CI";
         name = "karna_in";
-        fingerprint = "google/cheetah/cheetah:13/TD1A.220804.031/9071314:user/release-keys";
+        fingerprint = "google/cheetah/cheetah:13/TD1A.221105.001/9104446:user/release-keys";
         description = "karna_in-user 11 RKQ1.200826.002 V12.5.8.0.RJGMIXM release-keys";
    } else {
         device = "surya";
         name = "surya_global";
-        fingerprint = "google/cheetah/cheetah:13/TD1A.220804.031/9071314:user/release-keys";
+        fingerprint = "google/cheetah/cheetah:13/TD1A.221105.001/9104446:user/release-keys";
         description = "surya_global-user 11 RKQ1.200826.002 V12.5.8.0.RJGMIXM release-keys";
 
         if (region == "THAI" || region == "THAI_PA")
